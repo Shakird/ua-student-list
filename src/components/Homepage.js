@@ -1,11 +1,11 @@
 import React from "react";
-import SearchBar from "./searchBar";
+import StudentSearch from "./studentSearch";
 
 export default function HomePage() {
   return (
     <div class="flex flex-col h-full">
       <div className="mx-auto mt-4">
-        <SearchBar />
+        <StudentSearch />
       </div>
 
       {/* Future iteration will separate the list into its on component */}

@@ -1,8 +1,7 @@
 import React from "react";
-import { SortAscendingIcon, UsersIcon } from "@heroicons/react/solid";
-import { ChevronDownIcon } from "@heroicons/react/solid";
+import { UsersIcon } from "@heroicons/react/solid";
 
-export default function SearchBar() {
+export default function StudentSearch() {
   const [students, setStudents] = React.useState(null);
 
   React.useEffect(() => {
